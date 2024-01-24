@@ -1,0 +1,38 @@
+.product-card {
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: #f1f1f1;
+    padding: 16px;
+}
+
+.product-card img {
+    height: 100px;
+    width: 100px;
+    margin-top: 40px;
+}
+
+.texto-produto {
+    display: flex;
+    flex-direction: column;
+  
+}
+
+.product-card button {
+    background-color: #333;
+    color: #fff;
+    margin-top: 16px;
+
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.product-card button:hover {
+    background-color: #555;
+}
