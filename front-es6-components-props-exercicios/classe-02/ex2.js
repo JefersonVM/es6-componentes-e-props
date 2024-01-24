@@ -1,22 +1,19 @@
 const car = {
-  name: 'Corolla',
+  name: "Corolla",
   year: 2022,
-  color: 'white'
-}
+  color: "white",
+};
 
 const ownerContact = {
   phoneContact: "(00) 00000-0000",
-  owner: 'Daniel',
-}
+  owner: "Daniel",
+};
 
 const infosForSale = {
-  name: car.name,
-  year: car.year,
-  color: car.color,
-  phoneContact: ownerContact.phoneContact,
-  owner: ownerContact.owner + ' Lopes',
+  ...car,
+  ...ownerContact,
   price: 120000,
-  onlySale: true
-}
+  onlySale: true,
+};
 
 console.log(infosForSale);
