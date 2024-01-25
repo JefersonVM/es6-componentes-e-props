@@ -1,0 +1,29 @@
+.btn-red {
+  width: 201px;
+  height: 49px;
+  border-radius: 5px;
+  background-color: #ed6755;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn-red:hover {
+  background-color: #ed6755;
+  opacity: 0.8;
+}
+
+.btn-blue {
+  width: 201px;
+  height: 49px;
+  border-radius: 5px;
+  background-color: #1c1b5e;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn-blue:hover {
+  background-color: #1c1b5e;
+  opacity: 0.8;
+}
