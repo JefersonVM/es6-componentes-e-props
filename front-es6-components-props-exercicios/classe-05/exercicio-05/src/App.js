@@ -1,7 +1,7 @@
-import Card from "../src/components/Card";
+import Card from "./components/Card";
 import "./App.css";
-import imgCookie from "../src/assets/cookie.svg";
-import imgSirene from "../src/assets/sirene.svg";
+import imgCookie from "./assets/cookie.svg";
+import imgSirene from "./assets/sirene.svg";
 
 function App() {
   return (
